@@ -12,7 +12,7 @@ export default function Navbar() {
     event.preventDefault();
     setLoggedIn(false)
     localStorage.setItem('loggedIn', 'false');
-    window.location = '#/DCN-Assignment-1';
+    window.location = '/';
   };
 
   useEffect(() => {
@@ -25,22 +25,22 @@ export default function Navbar() {
         <nav>
           <div className="content" style={{ justifyContent: 'space-between' }}>
             <div className="logo">
-              <Link to="/DCN-Assignment-1/home">
+              <Link to="/home">
                 <img src={IITJLogo} alt="logo" width="55px" heigth="58px" />
               </Link>
             </div>
             {loggedIn === 'true' ? (
               <div className="buttons">
-                <Link to="/DCN-Assignment-1/home">
+                <Link to="/home">
                   <button>Profile</button>
                 </Link>
-                <Link to="/DCN-Assignment-1">
+                <Link to="/">
                   <button onClick={(event) => handleSubmit(event)}>Logout</button>
                 </Link>
               </div>
               ):(
                 <div className="buttons">
-                  <Link to="/DCN-Assignment-1">
+                  <Link to="/">
                     <button>Login</button>
                   </Link>
                 </div>

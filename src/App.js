@@ -16,8 +16,8 @@ const App = () => {
       <HashRouter>
         <Navbar />
         <Routes>
-          <Route exact path="/DCN-Assignment-1" element={<Login/>} />
-          <Route exact path="/DCN-Assignment-1/home" element={<Main/>} />
+          <Route exact path="/" element={<Login/>} />
+          <Route exact path="/home" element={<Main/>} />
         </Routes>
       </HashRouter>
       <div className="footer" style={{ width: '100%', height: '2.5rem', lineHeight: '2.5rem', margin: 'auto' }}>
