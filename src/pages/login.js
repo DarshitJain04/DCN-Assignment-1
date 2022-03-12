@@ -22,7 +22,7 @@ const Login = () => {
   const handleSubmit = (event) => {
     event.preventDefault();
     localStorage.setItem('loggedIn', 'true');
-    window.location = '/home';
+    window.location = '/DCN-Assignment-1/#/home';
   };
 
   return (
