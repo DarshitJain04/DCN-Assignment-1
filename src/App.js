@@ -4,22 +4,22 @@ import Navbar from './components/navbar';
 import Main from './pages/main';
 import Login from './pages/login';
 import {
-  BrowserRouter as Router, 
   Routes, 
-  Route
+  Route,
+  HashRouter
 } from 'react-router-dom';
 
 const App = () => {
 
   return (
     <div className="App">
-      <Router>
+      <HashRouter>
         <Navbar />
         <Routes>
-          <Route path="/DCN-Assignment-1" element={<Login/>} />
-          <Route path="/DCN-Assignment-1/home" element={<Main/>} />
+          <Route exact path="/DCN-Assignment-1" element={<Login/>} />
+          <Route exact path="/DCN-Assignment-1/home" element={<Main/>} />
         </Routes>
-      </Router>
+      </HashRouter>
       <div className="footer" style={{ width: '100%', height: '2.5rem', lineHeight: '2.5rem', margin: 'auto' }}>
 					Made with ❤️ by{' '}
 						<a

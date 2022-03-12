@@ -12,7 +12,7 @@ export default function Navbar() {
     event.preventDefault();
     setLoggedIn(false)
     localStorage.setItem('loggedIn', 'false');
-    window.location = '/DCN-Assignment-1';
+    window.location = '#/DCN-Assignment-1';
   };
 
   useEffect(() => {
