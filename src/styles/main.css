@@ -1,0 +1,34 @@
+.search-filter{
+	margin: 2rem 0 4rem 0;
+	justify-content: center;
+	align-items: center;
+}
+
+.resources{
+	text-align: center;
+	padding-top: 7rem;
+	font-size: 1.6rem;
+	font-family: 'Dosis', 'Roboto';
+	font-weight: bold;
+	color: #383838;
+}
+
+input {
+	margin: 2rem auto;
+	display: block;
+	padding: 0.5rem 1rem;
+	border: 2px dashed grey;
+	border-radius: 2rem;
+	font-family: "Poppins", sans-serif;
+	color: #00000090;
+	font-size: 1rem;
+	width: 500px;
+  }
+  
+input::placeholder {
+	color: #80808060;
+}
+  
+input:focus {
+	outline: none;
+}

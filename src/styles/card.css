@@ -1,0 +1,81 @@
+.resource-card {
+    width: 800px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 0.35rem;
+    margin: 2rem auto;
+    background-color: #fff;
+}
+
+.title {
+	padding: 1.5rem 1.5rem 0rem 1.5rem;
+    margin: 0;
+	font-family: 'Dosis', 'Roboto';
+	font-weight: bold;
+	color: #383838;
+}
+
+.category {
+    margin: 0;
+    padding-left: 1.5rem;
+	font-family: 'Dosis', 'Roboto';
+	font-weight: bold;
+	color: #848484;
+}
+
+.description {
+    margin: 0;
+    padding: 0.5rem 1.5rem;
+	font-family: 'Dosis', 'Roboto';
+	font-weight: 550;
+	color: #383838;
+	font-size: 1.2rem;
+}
+
+.link {
+    margin: 0;
+    padding-left: 1.5rem;
+	font-family: 'Dosis', 'Roboto';
+	font-weight: bold;
+	color: #383838;
+}
+
+.links {
+	margin: 0;
+    padding-left: 1.5rem;
+	font-family: 'Dosis', 'Roboto';
+	font-weight: 600;
+	font-size: 1.1rem;
+}
+
+.data > a:hover, .data > a:visited, .data > a:link, .data > a:active {
+	text-decoration: none;
+	color: #207DE9 !important;
+}
+
+.user {
+    margin: 0;
+    padding: 1.5rem;
+	font-family: 'Dosis', 'Roboto';
+	font-weight: 550;
+	color: #383838;
+	font-size: 1rem;
+}
+
+.metrics {
+	display: flex;
+	padding: 0 0 1rem 1.5rem;
+	color: #848484;
+}
+
+.likes{
+	margin-right: 2rem;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+}
+
+.dislikes{
+	justify-content: center;
+	align-items: center;
+	display: flex;
+}
