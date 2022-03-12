@@ -16,8 +16,8 @@ const App = () => {
       <Router>
         <Navbar />
         <Routes>
-          <Route path="/" exact element={<Login/>} />
-          <Route path="/home" exact element={<Main/>} />
+          <Route path="/DCN-Assignment-1" element={<Login/>} />
+          <Route path="/DCN-Assignment-1/home" element={<Main/>} />
         </Routes>
       </Router>
       <div className="footer" style={{ width: '100%', height: '2.5rem', lineHeight: '2.5rem', margin: 'auto' }}>

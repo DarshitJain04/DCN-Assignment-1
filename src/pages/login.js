@@ -22,7 +22,7 @@ const Login = () => {
   const handleSubmit = (event) => {
     event.preventDefault();
     localStorage.setItem('loggedIn', 'true');
-    window.location = '/home';
+    window.location = '/DCN-Assignment-1/home';
   };
 
   return (
@@ -52,7 +52,7 @@ const Login = () => {
             >
               Clear
             </button>
-            <Link to="/home">
+            <Link to="/DCN-Assignment-1/home">
                 <button
                     size="lg"
                     type="submit"
