@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/DCN-Assignment-1/static/css/main.486de188.css",
-    "main.js": "/DCN-Assignment-1/static/js/main.c61c412d.js",
+    "main.js": "/DCN-Assignment-1/static/js/main.4c510af6.js",
     "static/js/787.001e509f.chunk.js": "/DCN-Assignment-1/static/js/787.001e509f.chunk.js",
     "static/media/IITJ.png": "/DCN-Assignment-1/static/media/IITJ.504db8c0dcc3877f3113.png",
     "index.html": "/DCN-Assignment-1/index.html",
     "main.486de188.css.map": "/DCN-Assignment-1/static/css/main.486de188.css.map",
-    "main.c61c412d.js.map": "/DCN-Assignment-1/static/js/main.c61c412d.js.map",
+    "main.4c510af6.js.map": "/DCN-Assignment-1/static/js/main.4c510af6.js.map",
     "787.001e509f.chunk.js.map": "/DCN-Assignment-1/static/js/787.001e509f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.486de188.css",
-    "static/js/main.c61c412d.js"
+    "static/js/main.4c510af6.js"
   ]
 }
