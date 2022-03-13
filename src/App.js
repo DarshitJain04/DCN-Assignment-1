@@ -5,6 +5,7 @@ import "./styles/login.css";
 import Grid from "@material-ui/core/Grid";
 import Main from "./pages/main";
 import IITJLogo from "./assets/IITJ.png";
+import { Login } from "@mui/icons-material";
 
 const App = () => {
 	const [email, setEmail] = useState("");
@@ -23,6 +24,11 @@ const App = () => {
 			password.length > 0
 		);
 	};
+
+	const userLogin = () => {
+		clearForm();
+		setLoggedIn(true);
+	}
 
 	return (
 		<div className='App'>
@@ -83,7 +89,7 @@ const App = () => {
 							size='lg'
 							type='submit'
 							disabled={!validateForm()}
-							onClick={() => setLoggedIn(true)}
+							onClick={() => userLogin()}
 							className='loginButton'
 						>
 							Login
