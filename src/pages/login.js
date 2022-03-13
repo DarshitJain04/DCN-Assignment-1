@@ -11,7 +11,7 @@ const Login = () => {
     setPassword('');
   };
 
-  function validateForm() {
+  const validateForm = () => {
     return (
       email.length > 0 &&
       email.match('(^[a-z]+).([0-9]+)') &&
@@ -22,7 +22,7 @@ const Login = () => {
   const handleSubmit = (event) => {
     event.preventDefault();
     localStorage.setItem('loggedIn', 'true');
-    window.location = '/DCN-Assignment-1/#/home';
+    window.location = '/home';
   };
 
   return (
